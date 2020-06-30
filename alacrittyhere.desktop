@@ -2,7 +2,7 @@
 Type=Service
 X-KDE-ServiceTypes=KonqPopupMenu/Plugin
 MimeType=inode/directory;
-Actions=openKittyHere;
+Actions=openAlacrittyHere;
 X-KDE-AuthorizeAction=shell_access
 
 [Desktop Action openAlacrittyHere]
