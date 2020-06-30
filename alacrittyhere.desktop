@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory;
+Actions=openKittyHere;
+X-KDE-AuthorizeAction=shell_access
+
+[Desktop Action openAlacrittyHere]
+TryExec=alacritty
+Icon=utilities-terminal
+Exec=alacritty --working-directory %f
+Name=Open Alacritty Here
+Comment=Opens a terminal in the current folder
